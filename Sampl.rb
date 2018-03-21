@@ -4,3 +4,8 @@ define :Sampl do |sample|
   target[:dur] = sample_duration target[:sam]
   return target
 end
+
+#tests
+#HH = Sampl 'HH'
+#puts HH[:sam]
+#puts HH[':dur']
